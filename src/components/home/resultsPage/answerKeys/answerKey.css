@@ -1,0 +1,32 @@
+.t1-result-small-section{
+    float: left;
+    width: 40%;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.t1-result-small-container{
+    float: left;
+    width: 100%;
+}
+.t1-result-value{
+    float: left;
+    width: 100%;
+    color: #28324e;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.t1-result-heading{
+    float: left;
+    width: 100%;
+    color: #666e78;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.t1-result-subheading{
+    float: left;
+    width: 100%;
+    color: #666e78;
+    font-size: 14px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,50 @@
+.t1-ques-inner{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.t1-ques-head{
+    color: #28324e;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.t1-ques-component{
+    float: left;
+    width: 100%;
+}
+.t1-ques-component input.t1-input{
+    float: left;
+    color: #666e78;
+    font-size: 16px;
+    border: 1px solid #d9dad3;
+    width: 95%;
+    padding: 15px;
+}
+.t1-question .question-components .check-comp label {
+    margin-bottom: 0;
+    min-height: 56px;
+    color: #666e78;
+}
+
+.t1-question .question-components .check-comp label {
+    color: #dbbf4d;
+}
+.check-comp .control input:checked ~ .control__indicator {
+    background: lawngreen;
+}
+.check-comp .control__indicator {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #dbbf4d;
+}
+
+.t1-question .question-components input {
+    color: #666e78;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px #f7f6f6;
+}

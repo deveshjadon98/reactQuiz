@@ -1,0 +1,68 @@
+.radio-outer.active {
+    background: #f1f3f3;
+}
+
+.radio-outer {
+    border: 1px solid #d9dad3;
+    border-bottom: 0;
+    width: 100%;
+    float: left;
+    margin-bottom: 2px;
+    margin-top: -3px;
+    margin-left: -1px;
+    padding: 1px;
+    box-shadow: 0 0 0 1px #f7f6f6;
+    outline: none;
+}
+
+.control {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+
+.control--radio .control__indicator {
+    border-radius: 50%;
+    top: 18px;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: auto;
+}
+
+.question-components input {
+    background-color: transparent;
+    border: 1px solid #d9dad3;
+    border-radius: 0;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding: 16px 2%;
+    box-shadow: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px #f7f6f6;
+}
+
+input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}

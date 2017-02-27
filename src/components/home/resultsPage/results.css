@@ -1,0 +1,55 @@
+.t1-result{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: table;
+    position: relative;
+    background: url(../../../assets/images/main-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.t1-result-main{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+.t1-result .t1-overlay{
+    background: rgba(0,0,0,0.3);
+}
+.t1-result-top{
+    float: left;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.t1-result-topheading{
+    font-size: 24px;
+    color: #fff;
+    float: left;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.t1-result-inner{
+    float: left;
+    width: 75%;
+    background: #fff;
+    min-height: 400px;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+
+.t1-button{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.landing-btn{
+    color: #012435;
+    font-size: 16px;
+    width: auto;
+    padding:16px 50px;
+    background: rgba(247,218,100,0.9);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}

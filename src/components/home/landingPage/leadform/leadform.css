@@ -1,0 +1,30 @@
+.t1-landing-leadform .t1-leadform-field{
+    display: inline-block;
+    width: 40%;
+    float: none;
+    margin-bottom: 20px;
+}
+.t1-landing-leadform .t1-leadform-field input{
+    float: left;
+    width: 88%;
+    border:2px solid rgba(255,255,255,0.4);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    background: none;
+}
+.t1-button{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.landing-btn{
+    color: #012435;
+    font-size: 16px;
+    width: auto;
+    padding:16px 50px;
+    background: rgba(247,218,100,0.9);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
